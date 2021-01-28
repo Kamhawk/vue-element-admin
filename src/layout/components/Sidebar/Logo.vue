@@ -14,6 +14,8 @@
 </template>
 
 <script>
+
+import img from '../../../../src/assets/logo.png'
 export default {
   name: 'SidebarLogo',
   props: {
@@ -24,8 +26,8 @@ export default {
   },
   data() {
     return {
-      title: 'Vue Element Admin',
-      logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
+      title: 'AllMed Platform',
+      logo: img
     }
   }
 }
@@ -55,7 +57,7 @@ export default {
     width: 100%;
 
     & .sidebar-logo {
-      width: 32px;
+      width: 76px;
       height: 32px;
       vertical-align: middle;
       margin-right: 12px;
