@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Vue Element Admin',
+  title: 'AllMed Platform',
 
   /**
    * @type {boolean} true | false

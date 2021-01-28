@@ -1,12 +1,12 @@
 <template>
   <div class="app-container">
     <aside>
-      The guide page is useful for some people who entered the project for the first time. You can briefly introduce the
-      features of the project. Demo is based on
+      La page de guide est utile pour découvrir l'application pour la première fois.
+      Vous pouvez brièvement présenter les caractéristiques du projet. La démo est basée sur
       <a href="https://github.com/kamranahmedse/driver.js" target="_blank">driver.js.</a>
     </aside>
     <el-button icon="el-icon-question" type="primary" @click.prevent.stop="guide">
-      Show Guide
+      Découvrir l'application
     </el-button>
   </div>
 </template>

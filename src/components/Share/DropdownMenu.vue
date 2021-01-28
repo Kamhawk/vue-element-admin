@@ -49,7 +49,7 @@ $t: .1s;
     width: 100%;
     display: block;
     cursor: pointer;
-    background: black;
+    background: rgb(111, 174, 211);
     color: white;
     height: 60px;
     line-height: 60px;

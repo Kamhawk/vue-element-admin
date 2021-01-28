@@ -7,7 +7,8 @@
       </router-link>
       <router-link v-else key="expand" class="sidebar-logo-link" to="/">
         <img v-if="logo" :src="logo" class="sidebar-logo">
-        <h1 class="sidebar-title">{{ title }} </h1>
+        <br>
+        <h1 class="sidebar-title">by {{ title }} </h1>
       </router-link>
     </transition>
   </div>
@@ -46,8 +47,8 @@ export default {
 .sidebar-logo-container {
   position: relative;
   width: 100%;
-  height: 50px;
-  line-height: 50px;
+  height: 100px;
+  line-height: 40px;
   background: #2b2f3a;
   text-align: center;
   overflow: hidden;
@@ -57,8 +58,8 @@ export default {
     width: 100%;
 
     & .sidebar-logo {
-      width: 76px;
-      height: 32px;
+      width: 100%;
+      height: 65px;
       vertical-align: middle;
       margin-right: 12px;
     }
@@ -70,6 +71,7 @@ export default {
       font-weight: 600;
       line-height: 50px;
       font-size: 14px;
+      font-style: italic;
       font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
       vertical-align: middle;
     }
