@@ -90,10 +90,10 @@ export default {
           }
         },
         legend: {
-          data: ['expected', 'actual']
+          data: ['Prévisionnel', 'Réel']
         },
         series: [{
-          name: 'expected', itemStyle: {
+          name: 'Prévisionnel', itemStyle: {
             normal: {
               color: '#FF005A',
               lineStyle: {
@@ -109,7 +109,7 @@ export default {
           animationEasing: 'cubicInOut'
         },
         {
-          name: 'actual',
+          name: 'Réel',
           smooth: true,
           type: 'line',
           itemStyle: {
