@@ -47,14 +47,14 @@ const filters = {
   completed: todos => todos.filter(todo => todo.done)
 }
 const defalutList = [
-  { text: 'star this repository', done: false },
-  { text: 'fork this repository', done: false },
-  { text: 'follow author', done: false },
-  { text: 'vue-element-admin', done: true },
-  { text: 'vue', done: true },
-  { text: 'element-ui', done: true },
-  { text: 'axios', done: true },
-  { text: 'webpack', done: true }
+  { text: 'relance des factures impayées', done: false },
+  { text: 'organiser un petit déjeuner', done: false },
+  { text: 'faire un inventaire des stocks', done: false },
+  { text: 'améliorer les outils informatiques', done: true },
+  { text: 'demarcher les medecins genevois', done: true },
+  { text: 'proposer un talk scientifique', done: true },
+  { text: 'inviter des spécialistes', done: true },
+  { text: 'communiquer sur la clinique', done: true }
 ]
 export default {
   components: { Todo },
